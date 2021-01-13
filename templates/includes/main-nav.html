@@ -6,32 +6,32 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="" class="dropdown-item">By Price</a>
+                <a href="" class="dropdown-item ">By Rating</a>
                 <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mcus-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Micro-Control Units
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Hardwired &amp; Networked</a>
-                <a href="" class="dropdown-item">Radio &amp; Wi-Fi </a>
-                <a href="" class="dropdown-item">Cellular</a>
-                <a href="" class="dropdown-item">All MCUs</a>
+            <div class="dropdown-menu border-0" aria-labelledby="mcus-link">
+                <a href="{% url 'products' %}?category=hardwired" class="dropdown-item">Hardwired &amp; Networked</a>
+                <a href="{% url 'products' %}?category=wireless" class="dropdown-item">Radio &amp; Wi-Fi </a>
+                <a href="{% url 'products' %}?category=cellular" class="dropdown-item">Cellular</a>
+                <a href="{% url 'products' %}?category=hardwired,wireless,cellular" class="dropdown-item">All MCUs</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mediums-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mediums
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item"> Key Fobs</a>
-                <a href="" class="dropdown-item">Magnetic &amp; Prox Cards</a>
-                <a href="" class="dropdown-item">All Mediums</a>
+            <div class="dropdown-menu border-0" aria-labelledby="mediums-link">
+                <a href="{% url 'products' %}?category=key_fobs" class="dropdown-item">Key Fobs</a>
+                <a href="{% url 'products' %}?category=cards" class="dropdown-item">Magnetic &amp; Prox Cards</a>
+                <a href="{% url 'products' %}?category=key_fobs,cards" class="dropdown-item">All Mediums</a>
             </div>
         </li>
 
@@ -40,10 +40,11 @@
                 Special Applications
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">                
-                <a href="" class="dropdown-item">Truck Mounts</a>
-                <a href="" class="dropdown-item">Multi-Product Dispenser</a>
-                <a href="" class="dropdown-item">Odom Capture & Gates</a>
-                <a href="" class="dropdown-item">All Applications</a>
+                <a href="{% url 'products' %}?category=truck_mounts" class="dropdown-item">Truck Mounts</a>
+                <a href="{% url 'products' %}?category=multi_product" class="dropdown-item">Multi-Product Dispenser</a>
+                <a href="{% url 'products' %}?category=odom_capture" class="dropdown-item">Odom Capture</a>
+                <a href="{% url 'products' %}?category=security_access" class="dropdown-item">Gates &amp; Doors</a>
+                <a href="{% url 'products' %}?category=truck_mounts,multi_product,odom_capture,security_access" class="dropdown-item">All Applications</a>
             </div>
         </li>
     </ul>
