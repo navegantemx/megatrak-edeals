@@ -4,7 +4,7 @@ html {
 
 body {
     background: url('/media/homepage-background-fms.jpg') no-repeat center center fixed;
-    background-size: auto;
+    background-size: 50%;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
