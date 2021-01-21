@@ -1,0 +1,1 @@
+web: gunicorn megatrak_edeals.wsgi:application
