@@ -8,10 +8,13 @@ body {
 }
 
 /* index page */
+
+
 #shop-now-section {
     min-height: 50em;
     background-image: url('/media/homepage-background-fms.jpg');
     background-size: cover;
+    background-position-x: 60%;
 }
 
 #shop-now-btn-h4 {
