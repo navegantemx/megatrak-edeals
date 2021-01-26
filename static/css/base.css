@@ -3,11 +3,25 @@ html {
 }
 
 body {
-    background: url('/media/homepage-background-fms.jpg') no-repeat center center fixed;
-    background-size: 50%;
-    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+/* index page */
+#shop-now-section {
+    min-height: 50em;
+    background-image: url('/media/homepage-background-fms.jpg');
+    background-size: cover;
+}
+
+#shop-now-btn-h4 {
+    margin-top: 15em;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
 }
 
 /* from Bulma */
@@ -27,11 +41,6 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
 
 .btn-black {
     background: black;
