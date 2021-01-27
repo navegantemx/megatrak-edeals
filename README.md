@@ -4,7 +4,7 @@
 
 This is the MegaTrak Edeals marketing website for MegaTronics International Corp. manufacturer of the MegaTrak MCU Series 9000 Automated Fuel Management System for the Oil Industry and related peripheral devices.
 
-<h2 align="center"><img src="https://ibb.co/Lvcxbfk"></h2>
+<h2 align="center"><img src="https://i.ibb.co/XVK7NT2/Responsive.jpg"></h2>
 
 ## (UX)
 
