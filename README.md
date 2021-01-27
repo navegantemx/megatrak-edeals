@@ -1,39 +1,88 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">MegaTrak-Edeals</h1>
 
-Welcome navegantemx,
+[View the live project here.](https://megatrak-edeals.herokuapp.com)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is the MegaTrak Edeals marketing website for MegaTronics International Corp. manufacturer of the MegaTrak MCU Series 9000 Automated Fuel Management System for the Oil Industry and related peripheral devices.
 
-## Gitpod Reminders
+<h2 align="center"><img src="https://ibb.co/Lvcxbfk"></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## (UX)
 
-`python3 -m http.server`
+-   ### Project Goal
 
-A blue button should appear to click: *Make Public*,
+    My goal in the design of this project was to provide users and customers the ability to purchase the MegaTrak System products online as well as to get notified on the latest oil industry applications that MegaTronics Internation Corp. offers.
 
-Another blue button should appear to click: *Open Browser*.
+## Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-   Responsive on all device sizes
 
-A blue button should appear to click: *Make Public*,
+-   Interactive elements
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Languages Used
 
-## Updates Since The Instructional Video
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Libraries & Programs Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)    
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The "Search our site" feature on the Main Nav-Bar was tested trying to find a wrong search. Products Home | 0 Products found for "dsthysthr"
+-   The "Email" features were all tested, sending and receiving, verifications, etc.
+-   All "My Account" features were tested. "Register", "Login" and "Product Management" as "Admin User"
+-   All "Shopping Cart" features were tested. "Update" and "Remove" "Keep Shopping" and "Secure Checkout" buttons and functions and the "Checkout Form" was all fully tested.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
---------
+## Deployment
 
-Happy coding!
+### GitHub Pages
+
+The project was deployed to Heroku hosting platform:    (https://megatrak-edeals.herokuapp.com). 
+The deployed site will update automatically upon new commits to the Github master branch:
+(https://github.com/navegantemx/megatrak-edeals).
+
+
+
+## Credits
+
+### Code
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+-   Code based on Project - Boutique Ado - CodeInstitute 
+
+
+### Content
+
+-   Content was based on Project - Boutique Ado - CodeInstitute 
+
+-   Content and products description based on MegaTrak Automated Fuel Systems. [MegaTrak](https://megatrak.com)
+
+### Media
+
+-   Product Images from: MegaTrak, Datakey, Tankscan, ibuttonlink, l-com,
+Laird, Moxa, Serialcomm, Crydom, Digi, Attabox, Fill-Rite, HID.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
