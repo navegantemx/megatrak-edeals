@@ -24,6 +24,7 @@ This is the MegaTrak Edeals marketing website for MegaTronics International Corp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Python](https://www.python.org/
 
 ### Libraries & Programs Used
 
@@ -36,9 +37,9 @@ This is the MegaTrak Edeals marketing website for MegaTronics International Corp
 1. [jQuery:](https://jquery.com/)    
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [Django:](https://www.djangoproject.com/)
 
 ## Testing
 
