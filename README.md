@@ -24,7 +24,9 @@ This is the MegaTrak Edeals marketing website for MegaTronics International Corp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Python](https://www.python.org/
+-   [Python](https://www.python.org)
+-   [JavaScript](https://www.javascript.com)
+
 
 ### Libraries & Programs Used
 
@@ -34,7 +36,8 @@ This is the MegaTrak Edeals marketing website for MegaTronics International Corp
     - Google fonts were used to import font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)    
+1. [jQuery:](https://jquery.com/)
+1. [Stripe:](https://stripe.com/)
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
